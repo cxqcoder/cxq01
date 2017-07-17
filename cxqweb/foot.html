@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/foot.css" />
+		<link rel="stylesheet" href="css/common.css" />
+	</head>
+
+	<body>
+		<div class="foot_wrap">
+			<div class="foot">
+				<div class="music">
+					<span class="m1"></span>
+					<span class="m2"></span>
+					<span class="m3"></span>
+					<span class="m4"></span>
+					<span class="m5"></span>
+					<span class="m6"></span>
+					<span class="m7"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script>
+	$(function() {
+		var musicIndex = 0;
+		$(".music").find("span").click(function() {
+			musicIndex++;
+
+			index = $(this).index();
+			console.log(index);
+			$("body").append('<audio class="myaudio' + musicIndex + '" src="music/sound0' + index + '.mp3" autoplay ></audio>');
+			var removeIndex = musicIndex;
+			setTimeout(function() {
+				$(".myaudio" + removeIndex).remove();
+			}, 3000);
+
+		});
+
+	})
+</script>

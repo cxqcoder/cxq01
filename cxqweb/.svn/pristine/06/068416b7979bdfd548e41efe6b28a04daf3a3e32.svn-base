@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.foot_wrap {
+	height: 348px;
+	min-width: 1100px;
+	background: #DB7093;
+}
+
+.foot {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.music {
+	padding: 116px 0 0 276px;
+	height: 67px;
+}
+
+.music span {
+	float: left;
+	cursor: pointer;
+	width: 57px;
+	height: 57px;
+	margin-right: 26px;
+}
+
+.music span:hover {
+	background-position: 0 -57px;
+	animation: 1s linear 0s normal none 1 running su-pudding;
+}
+
+.m1 {
+	background-image: url(../img/yinyue_duo.png);
+}
+
+.m2 {
+	background-image: url(../img/yinyue_lai.png);
+}
+
+.m3 {
+	background-image: url(../img/yinyue_mi.png);
+}
+
+.m4 {
+	background-image: url(../img/yinyue_fa.png);
+}
+
+.m5 {
+	background-image: url(../img/yinyue_suo.png);
+}
+
+.m6 {
+	background-image: url(../img/yinyue_la.png);
+}
+
+.m7 {
+	background-image: url(../img/yinyue_xi.png);
+}

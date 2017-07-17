@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/common.css" type="text/css" rel="stylesheet" />
+		<link href="css/animate.css" type="text/css" rel="stylesheet" />
+		<link href="css/littlebird.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/move.js"></script>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="head_wrap">
+				<div class="logo">
+					<a href="javascript:window.location.reload();"><img src="img/logo2.png"></a>
+				</div>
+				<div class="nav">
+					<div class="nav_piece now">
+						<h1>花田故事</h1>
+					</div>
+					<div class="nav_piece">
+						<h1>农夫语录</h1>
+					</div>
+					<div class="nav_piece">
+						<h1>花田日记</h1>
+					</div>
+					<div class="nav_piece">
+						<h1>那花那地</h1>
+					</div>
+					<div class="nav_piece">
+						<h1>那花那人</h1>
+					</div>
+					<div class="nav_piece">
+						<h1 onclick="javascript:window.location.href='index.html';">返回主页</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--头部结束-->
+		<div class="enter_wrap wrap_block">
+			<div class="enter_content">
+				<div class="eimg"><img id="welicon" src="img/dh1.gif" /></div>
+				<div style="position: relative;top:0px;">
+					<div class="title wel_animate">花田一隅</div>
+					<div class="en_title wel_animate">Flowerfield Corner</div>
+					<div class="ems wel_animate">
+						<img class="yinhao1_zuo" src="img/aboutxiaoniao/yinhao1_zuo.png" />
+						<span>花田半亩，伴你一程</span>
+						<img class="yinhao1_you" src="img/aboutxiaoniao/yinhao1_you.png" />
+						<p class="wel_animate" style="margin-top: 20px;margin-bottom: 20px;">你眼里有春风，胜过我见过的一切山川河流。</p>
+						<p class="wel_animate">花田半亩，愿有素心人，陪你望清晨。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--动画介绍-->
+		<div class="main_wrap">
+			<div class="main_slide">
+				<!--第一块-->
+				<div class="welcom_wrap wrap_block">
+					<div class="mask"></div>
+					<div class="welcom_content">
+						<img src="img/dh.gif" />
+						<div style="position: relative;top:-35px;">
+							<div class="title">花田一隅</div>
+							<div class="en_title">Flowerfield Corner</div>
+							<div class="ems">
+								<img class="yinhao1_zuo" src="img/aboutxiaoniao/yinhao1_zuo.png" />
+								<span>花田半亩，伴你一程</span>
+								<img class="yinhao1_you" src="img/aboutxiaoniao/yinhao1_you.png" />
+								<p class="" style="margin-top: 20px;font-size: 20px;margin-bottom: 20px;">你眼里有春风，胜过我见过的一切山川河流。</p>
+								<p class="" style="font-size: 20px">花田半亩，愿有素心人，陪你望清晨。</p>
+							</div>
+							<div class="donext"></div>
+						</div>
+					</div>
+				</div>
+				<!--概述-->
+				<div class="gaishu wrap_block" style="height: 419px;background: rgb(34,18,54);">
+					<div class="gaishu_slider">
+						<div class="gaishu_block ">
+							<div class="gaishu_block_content">
+								<div style="text-align: center;">
+									<div class="title">花田故事</div>
+									<div class="ems">
+										<img class="yinhao1_zuo" src="img/aboutxiaoniao/yinhao1_zuo.png" />
+										<span>哥哥与弟弟</span>
+										<img class="yinhao1_you" src="img/aboutxiaoniao/yinhao1_you.png" />
+									</div>
+									<div class="app_img">
+										<img src="img/liwu1.png" />
+										<img src="img/liwu2.png" />
+										<img src="img/liwu3.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="gaishu_block gs2_block">
+							<div class="gaishu_block_content">
+								<div style="text-align: center;">
+									<div class="title">花田故事</div>
+									<div class="ems">
+										<img class="yinhao1_zuo" src="img/aboutxiaoniao/yinhao1_zuo.png" />
+										<span>回笼觉</span>
+										<img class="yinhao1_you" src="img/aboutxiaoniao/yinhao1_you.png" />
+									</div>
+									<div class="app_img">
+										<img src="img/hlj1.png" />
+										<img src="img/hlj2.png" />
+										<img src="img/hlj3.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="gaishu_block gs3_block">
+							<div class="gaishu_block_content">
+								<div style="text-align: center;">
+									<div class="title">花田故事</div>
+									<div class="ems">
+										<img class="yinhao1_zuo" src="img/aboutxiaoniao/yinhao1_zuo.png" />
+										<span>拥抱</span>
+										<img class="yinhao1_you" src="img/aboutxiaoniao/yinhao1_you.png" />
+									</div>
+									<div class="app_img">
+										<img src="img/yb1.png" />
+										<img src="img/yb2.png" />
+										<img src="img/yb3.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gaishu_left"></div>
+					<div class="gaishu_right nohover"></div>
+				</div>
+				<!--价值-->
+				<div class="jiazhi_block wrap_block">
+					<div class="mask"></div>
+					<div class="jiazhi_content">
+						<h1>农夫语录</h1>
+						<div class="jiazhi_top_content">
+							<div>
+								<img src="img/aboutxiaoniao/jiazhi_border_11.png" />
+								<img class="jiazhi_shineimg" src="img/aboutxiaoniao/jiazhi_border_12.png" />
+							</div>
+							<div style="float: right;">
+								<img src="img/aboutxiaoniao/jiazhi_border_21.png" />
+								<img class="jiazhi_shineimg" src="img/aboutxiaoniao/jiazhi_border_22.png" />
+							</div>
+						</div>
+						<div class="contents">
+							<div class="contents_one">
+								<div class="number">No.1</div>
+								<p>无论你从什么时候开始，重要的是开始后就不要停止。</p>
+							</div>
+							<div class="contents_one">
+								<div class="number">No.2</div>
+								<p>人的目光是有温度的，如果你一直看着一个人，他一定会有感觉的。</p>
+							</div>
+							<div class="contents_one">
+								<div class="number">No.3</div>
+								<p>我什么都没忘，只是有些事适合收藏。</p>
+							</div>
+							<div class="contents_one">
+								<div class="number">No.4</div>
+								<p>生气是真的生气，但又不是不爱你了。</p>
+							</div>
+							<div class="contents_one">
+								<div class="number">No.5</div>
+								<p>对于世界来说，你是一个人；对于某个人来说，你是他的世界。</p>
+							</div>
+							<div class="contents_one">
+								<div class="number">No.6</div>
+								<p>偏见是我爱别人，傲慢使别人无法爱我。</p>
+							</div>
+						</div>
+						<div class="jiazhi_bottom_contents">
+							<div>
+								<img src="img/aboutxiaoniao/jiazhi_border_31.png" />
+								<img class="jiazhi_shineimg" src="img/aboutxiaoniao/jiazhi_border_32.png" />
+							</div>
+							<div style="float: right;">
+								<img src="img/aboutxiaoniao/jiazhi_border_41.png" />
+								<img class="jiazhi_shineimg" src="img/aboutxiaoniao/jiazhi_border_42.png" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--小鸟云-->
+				<div class="xiaoniaoyun wrap_block">
+					<div class="yun_content">
+						<h1>住在春天里——春日种植</h1>
+						<div class="yun_slidebox">
+							<div class="yun_slider">
+								<div>
+									<p>不知从什么时候起，太阳开始进入恋爱的柔和状态，路边的玉兰开了一树繁花，春天就在不经意间来到我们身边。像那些所有美好的事物一样，春季也转瞬即逝，想要留住这美丽的春光倒也不难：选三两花器，撒几粒种子，看着小苗破土、抽芽，最后用满是生机的绿色填满屋子，春天就拖家带口地住进你家了！ 对于新手们来说，香料的种植最适合不过了。薄荷、罗勒、迷迭香、欧芹、百里香……，都是春播的品种，对土壤和水分的要求都不高，随便种种就能疯长。更重要的是，不出几月，这些植物就喷薄着来自地中海的香气，摇身一变，成为你厨房里重要的配角。下面就是花里给大家的种植指南：
+									</p>
+									<p style="text-indent:0;">
+										&nbsp;&nbsp;薄荷，别名夜息香。花期7-9月，果期10月。最适合扦插，取一段新鲜的薄荷扦插，几天就生根。
+										</br>&nbsp;&nbsp;罗勒，别名九层塔。花期7-9月，果期9-12月。发芽之后要每天每天喷少量的水保持土壤水分哦。
+										</br>&nbsp;&nbsp;牛至，又名土香薷。花期7-9月，果期10-12月。春秋都能播种，出芽到能食用需要2周。
+										</br>&nbsp;&nbsp;百里香，别名麝香草。播种时用手指按几个间距2厘米左右的小坑，要保持光照和土壤排水。
+									</p>
+								</div>
+								<div>
+									<p>迷迭香，茎及老枝圆柱形，暗灰色，花冠蓝紫色，花期11月。最适合扦插了，成功的话一周左右就会长出新的叶子。
+										</br>&nbsp;&nbsp;蔷薇：蔷薇对于土壤没有苛刻的要求，最适合扦插。保证足够的光照，稍注意排水，不出几月它们就会晒着太阳，唱着歌儿，开出一树繁花。
+										</br>&nbsp;&nbsp;百合： 因为百合是喜肥的植物，种球种下后浇一次大水就够了，之后只要保持土壤湿润就好。花期需要90天，一定要耐心呵护哦~
+										</br>&nbsp;&nbsp;三色堇&角堇：多养几株很容易簇生，可以直接买一些小花苗，选用排水良好的有机土移栽就好了。生长期每月施一次黑鸡肥，保持全天的光照，夏季就能开花了。
+									</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="btn_box">
+							<div class="yunmove_btn_left"><span class="yunmove_btn now" style="left:0;"></span></div>
+							<div class="yunmove_btn_right"><span class="yunmove_btn"></span></div>
+						</div>
+					</div>
+				</div>
+				<div class="app_contact wrap_block">
+					<div class="app_contact_content">
+						<div class="app_content">
+							<img src="img/nadi.png" />
+							<div class="story"></div>
+						</div>
+						<div class="contact_content">
+							<img src="img/naren.png" />
+							<div class="lxfs">要本仙女的电话，想的美，才不给你呢！</div>
+							<div class="jian"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script src="js/littlebird.js"></script>

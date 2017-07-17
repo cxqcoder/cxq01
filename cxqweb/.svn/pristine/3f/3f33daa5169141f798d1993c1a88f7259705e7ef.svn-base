@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/common.css" rel="stylesheet" type="text/javascript" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/move.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="header" id="h1"></div>
+		<!--内容-->
+		<div class="content_wrap">
+			<h1 class="title_big" id="typeTitle">联系我们</h1>
+			<h2 id="typeEntitle">Contact us</h2>
+			<img src="img/three_points01.png" />
+			<h1 class="title_list">
+				<span id="articleTitle">联系我们</span>
+				<span class="pen"></span>
+			</h1>
+			<div class="auther">
+				<span class="date" id="updatetime">2016-02-19 16:02:42</span>
+				<span id="author">管理员</span>
+			</div>
+			<div class="article_content">
+				<div style="margin-bottom: 35px;"><img src="img/article_image11.jpg" id="cover"></div>
+				<div id="content">
+				</div>
+			</div>
+			<div class="likewrap">
+				<div class="likebtn">
+					<div class="likeimg"></div>
+					<div class="likenum">喜欢（20）</div>
+				</div>
+			</div>
+			<div class="tips_wrap">
+				<div class="like_tips"></div>
+			</div>
+		</div>
+		<!--回到顶部-->
+		<div class="backtop" id="stop">
+			<div class="scroll_top" id="s_top"></div>
+			<div class="fixed_contactus"></div>
+		</div>
+		<!--内容与底部连接的图片-->
+		<div class="link_footer_img"></div>
+		<!--底部-->
+		<div class="footer"></div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/backtop.js"></script>
+<script type="text/javascript" src="js/detail.js"></script>
+<script type="text/javascript" src="js/articleData.js"></script>

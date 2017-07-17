@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/head.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/move.js"></script>
+
+		<body>
+			<div class="head_wrap">
+				<div class="head">
+					<div class="logo">
+						<img src="img/logo1.png" />
+					</div>
+					<div class="url_wrap">
+						<div class="nav_piece">
+							<h1><a href="index.html">首页</a></h1>
+						</div>
+						<div class="nav_piece hasdown">
+							<h1><a href="littlebird.html">花田一隅</a><span class="jt"></span></h1>
+							<ul>
+								<li class="y1">花田故事</li>
+								<li class="y1">农夫语录</li>
+								<li class="y1">花田日记</li>
+								<li class="y1">那花那田</li>
+								<li class="y1">那花那人</li>
+							</ul>
+						</div>
+						<div class="nav_piece">
+							<h1 onclick="window.open('list.html?type=xiaoniaoNews')">花田新品</h1>
+						</div>
+						<div class="nav_piece hasdown">
+							<h1>花田花事<span class="jt"></span></h1>
+							<ul>
+								<li onclick="window.open('gsln.html?type=companyIdea')">鲜花</li>
+								<li onclick="window.open('gsln.html?type=companyCulture')">绿植</li>
+								<li onclick="window.open('gsln.html?type=companyEnvironment')">多肉</li>
+							</ul>
+						</div>
+						<div class="nav_piece hasdown">
+							<h1>花田新闻<span class="jt"></span></h1>
+							<ul>
+								<li onclick="window.open('gsln.html?type=talents')">新发现</li>
+								<li onclick="window.open('gsln.html?type=team')">新动态</li>
+								<li onclick="window.open('gsln.html?type=joinUs')">新创意</li>
+							</ul>
+						</div>
+						<div class="nav_piece">
+							<h1><a href="contact.html">关于我们</a></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+
+</html>
+<script type="text/javascript" src="js/head.js"></script>
